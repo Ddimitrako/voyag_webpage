@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  website:
+    container_name: website
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      # Map port 3001 on your computer to port 3000 inside the container
+      - "3001:3000"
+    restart: unless-stopped

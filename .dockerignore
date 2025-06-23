@@ -1,0 +1,17 @@
+# Dependencies
+node_modules
+
+# Next.js build output
+.next
+
+# Optional: local environment variables
+.env.local
+.env.*.local
+
+# Optional: git and other metadata
+.git
+.gitignore
+
+# Optional: test files
+*.test.js
+*.spec.js
